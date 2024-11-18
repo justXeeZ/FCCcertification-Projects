@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
+    background-color: hsl(0, 0%, 90%);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    height: 10vh;
+    width: 100%;
+    padding: 0 8vw;
+    z-index: 2;
+    background-color: hsl(0, 0%, 90%);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+header li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 0%);
+}
+
+#header-img {
+    height: 85%;
+    max-width: 100%;
+}
+
+main {
+    margin: 10vh auto;
+    z-index: 1;
+}
+
+#main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#email {
+    margin: 1em 0;
+    min-width: 320px;
+    height: 2.5em;
+    font-size: 0.8em;
+    padding: 2px 5px;
+}
+
+#submit {
+    margin: 1.5vh 0;
+    min-width: 15vw;
+    height: 2em;
+    font-size: 1em;
+    font-weight: 800;
+    color: hsl(0, 0%, 0%);
+    background-color: hsl(47, 100%, 50%);
+    border: none;
+    border-radius: 3px;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: hsl(40, 97%, 46%);
+}
+
+#features {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 50em;
+    height: 22em;
+    margin: 4em auto;
+}
+
+#icons,
+#description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 22em;
+}
+
+#icons {
+    align-items: center;
+    width: 6em;
+    margin: 0 3em 0 0;
+}
+
+#description {
+    align-items: flex-start;
+}
+
+.fa-solid {
+    font-size: 3.2em;
+    color: hsl(35, 100%, 50%);
+    margin: 0 1em;
+}
+
+#features h2,
+#features p {
+    margin: 7px 0;
+}
+
+#video {
+    display: block;
+    min-width: auto;
+    width: 100%;
+    max-width: 35em;
+    aspect-ratio: 16 / 9;
+    margin: 0 auto;
+    border: none;
+}
+
+#pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 3em auto;
+    gap: 1em;
+}
+
+.pricing-card {
+    border: 1px solid hsl(0, 0%, 0%);
+    border-radius: 2px;
+    text-align: center;
+    width: 20em;
+    min-width: 16em;
+}
+
+.card-title {
+    font-size: 1.2em;
+    width: 100%;
+    margin: 0;
+    padding: 15px 0;
+    text-align: center;
+    font-weight: 500;
+    background-color: hsl(0, 0%, 82%);
+}
+
+.card-price {
+    font-size: 1.7em;
+    text-align: center;
+    font-weight: 530;
+}
+
+.card-description {
+    margin: 0;
+    padding: 0 25px;
+}
+
+.card-description p {
+    margin: 0.5em 0;
+}
+
+.card-button {
+    margin: 0.5em 0;
+    min-width: 100px;
+    height: 2.5em;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: hsl(0, 0%, 0%);
+    background-color: hsl(47, 100%, 50%);
+    border: none;
+    border-radius: 3px;
+}
+
+.card-button:hover {
+    cursor: pointer;
+    background-color: hsl(40, 97%, 46%);
+}
+
+#footer {
+    margin: 0 auto;
+    padding: 22px;
+    min-width: 10em;
+    max-width: 60em;
+    text-align: right;
+    background-color: hsl(0, 0%, 82%);
+}
+
+#footer a {
+    margin: 0 5px;
+}
+
+#footer p {
+    font-size: 0.8em;
+    margin: 5px 0;
+    color: hsl(0, 0%, 37%);
+}
+
+@media only screen and (max-width: 768px) {
+    #header,
+    #nav-bar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 10em;
+    }
+
+    #header-img {
+        height: 5em;
+    }
+
+    #header nav {
+        width: 100%;
+    }
+
+    #header li {
+        margin: 2px 0;
+    }
+
+    main {
+        margin-top: 10em;
+    }
+
+    .fa-solid {
+        display: none;
+        width: 1px;
+        height: 1px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #icons {
+        display: none;
+    }
+
+    #description {
+        align-items: center;
+        text-align: center;
+    }
+
+    #pricing {
+        display: flex;
+        flex-direction: column;
+    }
+}
