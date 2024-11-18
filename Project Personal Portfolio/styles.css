@@ -1,215 +1,243 @@
 * {
-  scroll-behavior: smooth;
-  box-sizing: border-box;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 html {
-  font-size: 62.5%;
+    font-size: 62.5%;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: "Raleway";
-  background-color: hsl(222, 29%, 38%);
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", "sans-serif";
+    background-color: hsl(222, 29%, 38%);
 }
 
 header {
-  position: fixed;
-  font-family: "poppins";
-  top: 0;
-  height: 7rem;
-  width: 100%;
-  background-color: hsl(352, 59%, 47%);
-  padding: 0 2.5rem;
-  overflow: hidden;
+    position: fixed;
+    font-family: "poppins", "sans-serif";
+    top: 0;
+    height: 7rem;
+    width: 100%;
+    background-color: hsl(352, 59%, 47%);
+    padding: 0 2.5rem;
+    overflow: hidden;
 }
 
 header nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  width: 100%;
-  height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 header a {
-  display: inline-block;
-  text-decoration: none;
-  height: 100%;
-  padding: 2.25rem 2rem;
-  font-size: 2.2rem;
-  color: hsl(0, 0%, 100%);
+    display: inline-block;
+    text-decoration: none;
+    height: 100%;
+    padding: 2.25rem 2rem;
+    font-size: 2.2rem;
+    color: hsl(0, 0%, 100%);
 }
 
 header li {
-  list-style: none;
+    list-style: none;
 }
 
 header a:hover {
-  background-color: hsl(221, 29%, 30%);
+    background-color: hsl(221, 29%, 30%);
 }
 
 #welcome-section {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(60deg, hsl(210, 5%, 24%), hsl(270, 4%, 10%));
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(60deg, hsl(210, 5%, 24%), hsl(270, 4%, 10%));
 }
 
 #welcome-section h1 {
-  font-size: 6rem;
-  margin: 0;
-  color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-size: 6rem;
+    margin: 0;
+    color: hsl(0, 0%, 100%);
 }
 
 #welcome-section p {
-  font-size: 3.5rem;
-  margin: 0.5rem 0;
-  font-style: italic;
-  color: hsl(352, 59%, 37%);
+    font-size: 3.5rem;
+    margin: 0.5rem 0;
+    font-style: italic;
+    color: hsl(352, 59%, 37%);
 }
 
 #projects {
-  padding-top: 7rem;
-  text-align: center;
+    padding: 7rem 1rem 0 1rem;
+    text-align: center;
 }
 
 #projects h2 {
-  display: inline-block;
-  font-size: 4rem;
-  color: hsl(0, 0%, 100%);
-  border-bottom: 2px solid hsl(0, 0%, 100%);
-  padding-bottom: 5px;
-  margin-bottom: 1em;
+    display: inline-block;
+    font-size: 4rem;
+    color: hsl(0, 0%, 100%);
+    border-bottom: 2px solid hsl(0, 0%, 100%);
+    padding-bottom: 5px;
+    margin-bottom: 1em;
 }
 
 #project-tiles {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 4rem;
-  max-width: 1280px;
-  margin: 3em auto 6em auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4rem;
+    max-width: 1280px;
+    margin: 3em auto 6em auto;
 }
 
 .project-tile {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 3px 3px 1rem hsl(0, 0%, 0%, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 1rem hsl(0, 0%, 0%, 0.5);
 }
 
 .project-tile img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .project-tile a {
-  display: inline-block;
-  text-align: center;
-  background-color: hsl(212, 15%, 22%);
-  color: hsl(0, 0%, 100%);
-  width: 100%;
-  font-size: 2rem;
-  padding: 1em 2em;
-  text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    background-color: hsl(212, 15%, 22%);
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    font-size: 2rem;
+    padding: 1em 0;
+    text-decoration: none;
+}
+
+.invisible {
+    color: hsl(25, 100%, 50%);
+    opacity: 0;
+    transition: all 0.2s ease-out 0ms;
+}
+
+.project-tile a:hover .invisible{
+    opacity: 1;
 }
 
 #projects > a {
-  font-family: "poppins";
-  font-size: 2rem;
-  text-decoration: none;
-  padding: 0.5em 1.5em;
-  background-color: hsl(212, 15%, 22%);
-  color: hsl(0, 0%, 100%);
-  transition: 0.2s ease-out 0ms;
+    font-family: "poppins", "sans-serif";
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 0.5em 1.5em;
+    background-color: hsl(212, 15%, 22%);
+    color: hsl(0, 0%, 100%);
+    transition: all 0.2s ease-out 0ms;
 }
 
 #projects > a:hover {
-  background-color: hsl(352, 59%, 47%);
-  transition: 0.2s ease-in 0ms;
+    background-color: hsl(352, 59%, 47%);
 }
 
 #contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 7rem;
-  margin-top: 7rem;
-  height: 85vh;
-  color: hsl(0, 0%, 100%);
-  background-color: hsl(212, 15%, 22%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7rem;
+    margin-top: 7rem;
+    height: 85vh;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(212, 15%, 22%);
 }
 
 #contact h2 {
-  font-size: 6rem;
-  margin: 0;
+    font-size: 6rem;
+    margin: 0;
+    text-align: center;
 }
 
 #contact > p {
-  font-size: 2rem;
-  font-style: italic;
-  font-weight: 200;
-  margin: 0.5em 0 2em 0;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 200;
+    margin: 0.5em 0 2em 0;
 }
 
 #contact-links {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 #contact a > p {
-  display: inline;
+    display: inline;
 }
 
 #contact a {
-  color: hsl(0, 0%, 100%);
-  text-decoration: none;
-  margin: 0 1em;
-  font-size: 2.5rem;
-  text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.5);
-  white-space: nowrap;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    margin: 1em 1em;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.5);
+    white-space: nowrap;
+    transition: transform 0.2s ease-out 0ms;
 }
 
 #contact a:hover {
-  position: relative;
-  bottom: -5px;
+    transform: translateY(-5px);
 }
 
 footer {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 15vh;
-  background-color: hsl(212, 15%, 22%);
-  padding: 0 2rem;
-  width: 100%;
-  border-top: 5px solid hsl(352, 59%, 47%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15vh;
+    background-color: hsl(212, 15%, 22%);
+    padding: 0 2rem;
+    width: 100%;
+    border-top: 5px solid hsl(352, 59%, 47%);
 }
 
 footer p {
-  font-size: 1.8rem;
-  margin: 0 1em;
-  color: hsl(0, 0%, 100%);
+    font-size: 1.8rem;
+    margin: 0 1em;
+    color: hsl(0, 0%, 100%);
 }
 
 footer a {
-  color: hsl(0, 0%, 100%);
-  text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
 }
 
-@media (max-width: 500px) {
-  #project-tiles {
-    display: flex;
-    flex-direction: column;
-  }
+@media (max-width: 1220px) {
+    #project-tiles {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 649px) {
+    #project-tiles {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 469px) {
+    footer p {
+        font-size: 1.5rem;
+    }
+
+    header {
+        padding: 0;
+        font-size: 2rem;
+    }
 }
