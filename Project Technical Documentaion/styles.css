@@ -1,98 +1,100 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
-  margin: 0;
-  font-family: "Open Sans", system-ui;
-  font-size: 1em;
-  background-color: hsl(200, 6%, 10%);
-  color: hsl(36, 9%, 68%);
+    margin: 0;
+    font-family: "Open Sans", system-ui;
+    font-size: 1em;
+    background-color: hsl(200, 6%, 10%);
+    color: hsl(36, 9%, 68%);
 }
 
 #navbar {
-  position: fixed;
-  min-width: 320px;
-  max-width: 320px;
-  height: 100vh;
-  border-right: 2px solid hsl(0, 0%, 65%);
-  padding: 0 5px;
-  margin: 0;
+    position: fixed;
+    min-width: 320px;
+    max-width: 320px;
+    height: 100vh;
+    border-right: 2px solid hsl(0, 0%, 65%);
+    padding: 0 5px;
+    margin: 0;
 }
 
 #navbar > header {
-  text-align: center;
-  margin: 0.5em auto;
+    text-align: center;
+    margin: 0.5em auto;
 }
 
 #navbar > .nav-link {
-  display: inline-block;
-  width: 100%;
-  color: hsl(36, 9%, 68%);
-  text-decoration: none;
-  font-size: 1.1em;
-  padding: 10px 20px;
-  border-top: 1px solid hsl(0, 0%, 65%);
+    display: inline-block;
+    width: 100%;
+    color: hsl(36, 9%, 68%);
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    border-top: 1px solid hsl(0, 0%, 65%);
 }
 
 main {
-  max-width: 75vw;
-  margin-left: 320px;
-  padding: 35px;
-  overflow: hidden;
+    max-width: 75vw;
+    margin-left: 320px;
+    padding: 35px;
+    overflow: hidden;
 }
 
 header {
-  color: hsl(20, 4%, 85%);
-  font-size: 1.8em;
-  font-weight: 500;
-  margin: 1.6vh 0;
+    color: hsl(20, 4%, 85%);
+    font-size: 1.8em;
+    font-weight: 500;
+    margin: 1.6vh 0;
 }
 
 code {
-  display: block;
-  font-family: monospace;
-  background-color: hsl(200, 6%, 12%);
-  width: 95%;
-  padding: 15px;
-  border-radius: 5px;
-  line-height: 2em;
+    display: block;
+    font-family: monospace;
+    background-color: hsl(200, 6%, 12%);
+    width: 95%;
+    padding: 15px;
+    border-radius: 5px;
+    line-height: 2em;
 }
 
 p {
-  padding-left: 1em;
+    padding-left: 1em;
 }
 
 ul,
 code {
-  margin-left: 2.5em;
+    margin-left: 2.5em;
 }
 
 li {
-  margin: 1em 0;
+    margin: 1em 0;
 }
 
 @media (max-width: 786px) {
-  #navbar {
-    position: static;
-    width: 90%;
-    height: auto;
-    min-width: none;
-    max-width: none;
-    text-align: center;
-    margin: 2em auto;
-    border: 2px solid hsl(0, 0%, 65%);
-  }
+    #navbar {
+        position: static;
+        width: 90%;
+        height: 300px;
+        min-width: 0;
+        max-width: none;
+        text-align: center;
+        margin: 2em auto;
+        border: 2px solid hsl(0, 0%, 65%);
+        overflow: auto;
+    }
 
-  #navbar > header {
-    margin: 0.5em auto;
-  }
+    #navbar > header {
+        margin: 0.5em auto;
+    }
 
-  main {
-    width: 100%;
-    max-width: none;
-    min-width: none;
-    margin: auto;
-    padding: auto;
-  }
+    main {
+        width: 100%;
+        max-width: none;
+        min-width: 0;
+        margin: auto;
+        padding: 1em;
+    }
 }
