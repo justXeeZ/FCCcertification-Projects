@@ -16,6 +16,8 @@ _please star this repo if it helped :3_
 - [Technical Documentation Page](https://github.com/justXeeZ/FCCcertification-Projects/tree/main/Technical%20Documentation%20Page)
 - [Landing Product Page](https://github.com/justXeeZ/FCCcertification-Projects/tree/main/Landing%20Product%20Page)
 - [Personal Portfolio Webpage](https://github.com/justXeeZ/FCCcertification-Projects/tree/main/Personal%20Portfolio%20Webpage)
+- [Palindrome Checker](https://github.com/justXeeZ/FCCcertification-Projects/tree/main/Palindrome%20Checker)
+
 
 _these are the links to the projects on my github_
 
@@ -25,7 +27,7 @@ _these are the links to the projects on my github_
 - `README.md` for project description
 - `index.html`
 - `styles.css`
-- `script.js` _not always_
+- `script.js`
 - `favicon.svg`
 
 ## Author
@@ -33,5 +35,5 @@ _these are the links to the projects on my github_
 Made by XeeZ
 
 - [GitHub](https://github.com/justXeeZ)
-- [FreeCodeCamp](https://www.freecodecamp.org/justXeeZ)
+- [freeCodeCamp](https://www.freecodecamp.org/justXeeZ)
 - [Vercel](https://vercel.com/xeez)

@@ -1,6 +1,6 @@
-# FreeCodeCamp - Survey Form
+# freeCodeCamp - Survey Form
 
-This is a solution to the [Survey form certification project on FreeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form).
+This is a solution to the [Survey form certification project on freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form).
 
 ## Overview
 
@@ -19,4 +19,4 @@ _Mobile Preview_
 ## Author
 
 - My GitHub - [justXeeZ](https://github.com/justXeeZ)
-- My FreedCodeCamp - [@justXeeZ](https://www.freecodecamp.org/justXeeZ)
+- My freeCodeCamp - [@justXeeZ](https://www.freecodecamp.org/justXeeZ)

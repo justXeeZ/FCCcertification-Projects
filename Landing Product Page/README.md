@@ -1,6 +1,6 @@
-# FreeCodeCamp - Landing Product Page
+# freeCodeCamp - Landing Product Page
 
-This is a solution to the [Landing product page certification project on FreeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-product-landing-page-project/build-a-product-landing-page).
+This is a solution to the [Landing product page certification project on freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-product-landing-page-project/build-a-product-landing-page).
 
 ## Overview
 
@@ -19,4 +19,4 @@ _Mobile Preview_
 ## Author
 
 - My GitHub - [justXeeZ](https://github.com/justXeeZ)
-- My FreedCodeCamp - [@justXeeZ](https://www.freecodecamp.org/justXeeZ)
+- My freeCodeCamp - [@justXeeZ](https://www.freecodecamp.org/justXeeZ)
