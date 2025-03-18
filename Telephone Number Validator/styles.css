@@ -1,0 +1,100 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Lato, sans-serif;
+	background-color: #3b3b4f;
+	color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	margin-top: 35px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header > img{
+    width: 95%;
+    max-width: 300px;
+}
+
+h1{
+    font-size: 2rem;
+	text-align: center;
+}
+
+#phone{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 450px;
+    border-radius: 20px;
+    background-color: black;
+    z-index: 1;
+}
+
+#phone::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: lightgray;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+}
+
+#container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    padding-top: 15px;
+    width: 220px;
+    height: 350px;
+    background-color: lightgray;
+    margin-top: 40px;
+}
+
+#results-div{
+    text-align: center;
+    overflow: scroll;
+}
+
+button{
+    position: absolute;
+    bottom: -35px;
+    width: 90px;
+    height: 30px;
+    font-size: larger;
+    background-image: linear-gradient(to bottom, lightgray, gray);
+    border-radius: 0;
+
+}
+
+#clear-btn{
+    right: 10px
+}
+
+#check-btn{
+    left: 10px;
+}
+
+.valid{
+    color: #18481b;
+}
+
+.invalid{
+    color: #4d3a1f;
+}

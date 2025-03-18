@@ -18,6 +18,8 @@ _please star this repo if it helped :3_
 - [Personal Portfolio Webpage](https://github.com/justXeeZ/FCCcertification-Projects/tree/main/Personal%20Portfolio%20Webpage)
 - [Palindrome Checker](https://github.com/justXeeZ/FCCcertification-Projects/tree/main/Palindrome%20Checker)
 - [Roman Numeral Converter](https://github.com/justXeeZ/FCCcertification-Projects/tree/main/Roman%20Numeral%20Converter)
+- [Telephone Number Validator](https://github.com/justXeeZ/FCCcertification-Projects/tree/main/Telephone%20Number%20Validator)
+
 
 
 
