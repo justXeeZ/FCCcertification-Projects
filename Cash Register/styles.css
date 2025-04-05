@@ -1,0 +1,159 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #0a0a23;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 35px;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+header > img {
+	width: 95%;
+	max-width: 250px;
+}
+
+h1 {
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+label {
+	font-size: large;
+	margin-bottom: 15px;
+}
+
+input {
+	width: 95%;
+	max-width: 200px;
+}
+
+button {
+	font-size: large;
+	font-weight: bold;
+	margin: 25px;
+	border: 3px solid orange;
+	border-radius: 0;
+	background: linear-gradient(to bottom, yellow, orange);
+	cursor: pointer;
+}
+
+p {
+	font-size: large;
+}
+
+#price {
+	border: 10px solid #99c9ff;
+	padding: 4px 40px;
+	left: 30px;
+	color: white;
+	background-color: black;
+	position: relative;
+	top: -20px;
+	width: 200px;
+}
+
+#price::after {
+	content: "";
+	position: absolute;
+	width: 40px;
+	height: 50px;
+	background-color: #99c9ff;
+	top: 100%;
+	left: 20px;
+}
+
+#main-body {
+	background-color: white;
+	color: black;
+	width: 180px;
+	height: 280px;
+	position: relative;
+	right: -100px;
+}
+
+#main-body::before {
+	content: "";
+	position: absolute;
+	width: 300px;
+	height: 320px;
+	background-color: #99c9ff;
+	top: -20px;
+	right: -20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	z-index: -1;
+}
+
+#main-body-buttons {
+	position: absolute;
+	display: grid;
+	grid-template-columns: repeat(3, 20px);
+	grid-gap: 5px;
+	width: 75px;
+	height: 75px;
+	background-color: transparent;
+	top: 45px;
+	left: -85px;
+	transform: translateY(-50%);
+}
+
+#main-body-buttons div {
+	width: 20px;
+	height: 20px;
+	background-color: #0a0a23;
+}
+
+#main-body p {
+	margin: 0px 5px;
+}
+
+#main-body > p {
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-decoration: underline;
+	text-align: center;
+}
+
+#bottom-body {
+	width: 300px;
+	height: 50px;
+	background-color: #99c9ff;
+	position: relative;
+	top: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+#bottom-body::before{
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #0a0a23;
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

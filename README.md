@@ -1,4 +1,4 @@
-# XeeZ's <a href="https://freecodecamp.org/justXeeZ">freeCodeCamp</a> Solution Projects
+# <a href="https://freecodecamp.org/justXeeZ">freeCodeCamp</a> Solution Projects
 
 This Repository contains my projects from [FreeCodeCamp](https://www.freecodecamp.org/justXeeZ) and their live preview on my [Vercel](https://vercel.com/xeezprojects).
 
@@ -19,9 +19,7 @@ _please star this repo if it helped :3_
 - [Palindrome Checker](https://github.com/justXeeZ/FCCcertification-Projects/tree/main/Palindrome%20Checker)
 - [Roman Numeral Converter](https://github.com/justXeeZ/FCCcertification-Projects/tree/main/Roman%20Numeral%20Converter)
 - [Telephone Number Validator](https://github.com/justXeeZ/FCCcertification-Projects/tree/main/Telephone%20Number%20Validator)
-
-
-
+- [Cash Register](https://github.com/justXeeZ/FCCcertification-Projects/tree/main/Cash%20Register)
 
 _these are the links to the projects on my github_
 
