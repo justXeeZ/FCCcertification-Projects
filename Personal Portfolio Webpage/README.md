@@ -1,22 +1,24 @@
-# freeCodeCamp - Personal Portfolio Webpage
+# 🖼️ freeCodeCamp - Personal Portfolio Webpage
 
-This is a solution to the [Personal Portfolio Webpage certification project on freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-personal-portfolio-webpage-project/build-a-personal-portfolio-webpage).
+This is a solution to the [Personal Portfolio Webpage Certification Project on freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-personal-portfolio-webpage-project/build-a-personal-portfolio-webpage).
 
-## Overview
+---
 
-### [Live Project Preview On Vercel](https://xeezfcc-personalportfoliowebpage.vercel.app/)
+## 🚀 Overview
 
-### Screenshots
+### 🌐 [Live Project Preview on Vercel](https://xeezfcc-personalportfoliowebpage.vercel.app/)
 
-<img src="design\desktop.png" width="600px"/>
+### 📸 Screenshots
 
-_Desktop Preview_
+#### Desktop Preview
+<img src="design/desktop.png" width="600px"/>
 
-<img src="design\mobile.png" width="300px"/>
+#### Mobile Preview
+<img src="design/mobile.png" width="300px"/>
 
-_Mobile Preview_
+---
 
-## Author
+## 👨‍💻 Author
 
-- My GitHub - [justXeeZ](https://github.com/justXeeZ)
-- My freeCodeCamp - [@justXeeZ](https://www.freecodecamp.org/justXeeZ)
+- **GitHub**: [justXeeZ](https://github.com/justXeeZ)
+- **freeCodeCamp**: [@justXeeZ](https://www.freecodecamp.org/justXeeZ)
