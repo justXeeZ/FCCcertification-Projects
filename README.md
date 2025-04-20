@@ -1,6 +1,6 @@
 # 🌟 [freeCodeCamp](https://freecodecamp.org/justXeeZ) Solution Projects
 
-Welcome to my repository! This is where I showcase my projects from [FreeCodeCamp](https://www.freecodecamp.org/justXeeZ). You can also check out their live previews on [Vercel](https://vercel.com/xeezprojects). If you find this helpful, please ⭐ the repo! 😊
+Welcome to my repository! This is where I showcase my projects from [FreeCodeCamp](https://www.freecodecamp.org/justXeeZ). You can also check out their live previews on [Vercel](https://vercel.com/xeezprojects). If you find this helpful, please ⭐ the repo!
 
 ---
 
@@ -8,7 +8,7 @@ Welcome to my repository! This is where I showcase my projects from [FreeCodeCam
 
 ### 📚 Started
 - [Responsive Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/) ~~_Completed_~~ ✅
-- [JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/) _In Progress_ 🔄
+- [JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/) ~~_Completed_~~ ✅
 
 ---
 
@@ -25,6 +25,7 @@ Here are the projects I've completed so far. Click the links to view the code on
 7. [Roman Numeral Converter](https://github.com/justXeeZ/FCCcertification-Projects/tree/main/Roman%20Numeral%20Converter)
 8. [Telephone Number Validator](https://github.com/justXeeZ/FCCcertification-Projects/tree/main/Telephone%20Number%20Validator)
 9. [Cash Register](https://github.com/justXeeZ/FCCcertification-Projects/tree/main/Cash%20Register)
+10. [RPG Creature Search App](https://github.com/justXeeZ/FCCcertification-Projects/tree/main/RPG%20Creature%20Search%20App)
 
 ---
 
